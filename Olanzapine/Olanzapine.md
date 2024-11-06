@@ -64,4 +64,4 @@ There were second derivative properties which could not be uploaded to the datab
   <tr><td bgcolor="white">CSD Refcodes</td><td bgcolor="white">UNOGIN03, UNOGIN04, UNOGIN06, UNOGIN05</td></tr>
 </table>
 
-![Lattice energy landscape of Olanzapine, from Search A with energy model 1](/1.Landscapes/OlanzapineA1.png)
+![Lattice energy landscape of Olanzapine, from Search A with energy model 1](/1.Landscapes/Olanzapine_A1.png)

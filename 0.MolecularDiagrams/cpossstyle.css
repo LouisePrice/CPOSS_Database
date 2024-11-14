@@ -1,0 +1,48 @@
+H1 { color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: center; font-size: 16px; font-weight: bold}
+H2 {
+	color: #0000FF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 12px;
+}
+H3 { color: #000099; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px}
+H4 { color: #009900; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bolder}
+H5 { color: teal; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; text-indent: 18px}
+P { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px} 
+BODY { background: white repeat  top; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px}
+ul {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px}
+ol {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px}
+table { max-width: 1000px }
+.pageheading { color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: left; font-size: 16px; font-weight: bold}
+.blue {  color: #3333FF; font-style: italic; font-weight: bold}
+.code {  color: #33FF33; font-family: "Courier New", Courier, mono }
+.highlight { color: #3333FF; font-weight: bold }
+.note {  font-style: italic; color: #333333}
+.author {
+	font-style: italic;
+	font-weight: bold;
+	color: #666666;
+}
+.field {
+	font-family: "Courier New", Courier, mono;
+	color: #009900;
+}
+.warning {
+	font-size: 0px;
+}
+.highlight2 {
+color: #FF3333; font-weight: bold
+}
+.highlight3 {
+
+color: #33aa33; font-weight: bold
+}
+.highlight2blink {
+	color: #FF3333;
+	font-weight: bold;
+	text-decoration: blink;
+
+}
+.crystal_background {
+	background-image: url(images/crystalsgreyscalerotated.jpg);
+}

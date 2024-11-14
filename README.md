@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="/0.MolecularDiagrams/cpossstyle.css" type="text/css" />
-<link rel="shortcut icon" href="/0.MolecularDiagrams/favicon.ico" />
+<link rel="stylesheet" href="0.MolecularDiagrams/cpossstyle.css" type="text/css" />
+<link rel="shortcut icon" href="0.MolecularDiagrams/favicon.ico" />
 
 # CPOSS_Database
 This is the legacy repository for all CPOSS CSP landscapes.

@@ -14,7 +14,7 @@ ul {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px}
 ol {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px}
 table { max-width: 1000px }
 table .molTable { border: 2px; bordercolor: "black" }
-.searchATable { border-top-width : 1px;
+table.searchATable { border-top-width : 1px;
     border-right-width : 1px;
     border-bottom-width : 1px;
     border-left-width : 1px;

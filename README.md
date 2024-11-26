@@ -1,21 +1,5 @@
-<html>
-
 <link rel="stylesheet" href="0.MolecularDiagrams/cpossstyle.css" type="text/css" />
 <link rel="shortcut icon" href="0.MolecularDiagrams/favicon.ico" />
-
-<style>
-table.searchATable { border-top-width : 1px;
-    border-right-width : 1px;
-    border-bottom-width : 1px;
-    border-left-width : 1px;
-    border: 1px;
-    border-color: #010173;
-    border-style : solid solid solid solid;
-    width:100%;
-    border-collapse: collapse; 
-    border-spacing: 1px 1px;
-    table-layout: fixed; }
-</style>
 
 # CPOSS_Database
 This is the legacy repository for all CPOSS CSP landscapes.

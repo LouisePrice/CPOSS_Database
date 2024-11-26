@@ -24,4 +24,4 @@ There will be a table, outlined in black, describing the general information abo
 
 Then there will be tables about the searches that were carried out.  Each search has a search identifier (A, B, C, etc.) and can have multiple energy models (1, 2, 3, etc.).  Different searches have different colour outlines, and different energy models are separated by horizontal rules.
 
-<table class="searchATable"><tr><td>Search Identifier</td><td>A</td><td>There will usually be a link to the overall spreadsheet and the chemiscope file.</td></tr></table>
+<table class="searchATable"><tr><td>Search Identifier</td><td>A</td><td>There will usually be a <span class="blue">link</span> to the overall spreadsheet and the chemiscope file.</td></tr></table>

@@ -1,8 +1,10 @@
+<html>
+
 <link rel="stylesheet" href="0.MolecularDiagrams/cpossstyle.css" type="text/css" />
 <link rel="shortcut icon" href="0.MolecularDiagrams/favicon.ico" />
 
 <style>
-  .searchATable { border-top-width : 1px;
+table.searchATable { border-top-width : 1px;
     border-right-width : 1px;
     border-bottom-width : 1px;
     border-left-width : 1px;
@@ -14,6 +16,7 @@
     border-spacing: 1px 1px;
     table-layout: fixed; }
 </style>
+
 # CPOSS_Database
 This is the legacy repository for all CPOSS CSP landscapes.
 
@@ -38,3 +41,5 @@ There will be a table, outlined in black, describing the general information abo
 Then there will be tables about the searches that were carried out.  Each search has a search identifier (A, B, C, etc.) and can have multiple energy models (1, 2, 3, etc.).  Different searches have different colour outlines, and different energy models are separated by horizontal rules.
 
 <table class="searchATable"><tr><td>Search Identifier</td><td>A</td><td>There will usually be a <span class="blue">link</span> to the overall spreadsheet and the chemiscope file.</td></tr></table>
+
+</html>

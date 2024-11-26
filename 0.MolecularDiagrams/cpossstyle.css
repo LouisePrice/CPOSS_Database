@@ -13,7 +13,7 @@ BODY { background: white repeat  top; font-family: Verdana, Arial, Helvetica, sa
 ul {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px}
 ol {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px}
 table { max-width: 1000px }
-.molTable { border: 2px; bordercolor: "black" }
+table .molTable { border: 2px; bordercolor: "black" }
 .searchATable { border: 2px; bordercolor: "red"; color: "magenta" }
 .pageheading { color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: left; font-size: 16px; font-weight: bold}
 .blue {  color: #3333FF; font-style: italic; font-weight: bold}

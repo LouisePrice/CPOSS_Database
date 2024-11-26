@@ -14,7 +14,17 @@ ul {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px}
 ol {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px}
 table { max-width: 1000px }
 table .molTable { border: 2px; bordercolor: "black" }
-table .searchATable { border: 2px; bordercolor: "red"; color: "magenta" }
+.searchATable { border-top-width : 1px;
+    border-right-width : 1px;
+    border-bottom-width : 1px;
+    border-left-width : 1px;
+    border: 1px;
+    border-color: #010173;
+    border-style : solid solid solid solid;
+    width:100%;
+    border-collapse: collapse; 
+    border-spacing: 1px 1px;
+    table-layout: fixed; }
 .pageheading { color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: left; font-size: 16px; font-weight: bold}
 .blue {  color: #3333FF; font-style: italic; font-weight: bold}
 .code {  color: #33FF33; font-family: "Courier New", Courier, mono }

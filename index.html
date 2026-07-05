@@ -23,9 +23,9 @@
     main { width: min(1120px, calc(100% - 2rem)); margin: 3rem auto; }
     h1 { margin: 0 0 .25rem; font-size: clamp(1.8rem, 4vw, 2.5rem); line-height: 1.2; }
     .summary { margin: 0 0 1.5rem; color: var(--muted); }
-    .explorer {
+    .resource-links { display: flex; flex-wrap: wrap; gap: .65rem; margin: .75rem 0 1.5rem; }
+    .resource-link {
       display: inline-block;
-      margin: .75rem 0 1.5rem;
       padding: .65rem .9rem;
       border-radius: .35rem;
       color: #fff;
@@ -33,7 +33,7 @@
       text-decoration: none;
       font-weight: 700;
     }
-    .explorer:hover { background: #0f4788; }
+    .resource-link:hover { background: #0f4788; }
     label { display: block; margin-bottom: .35rem; font-weight: 600; }
     input {
       width: 100%;
@@ -62,7 +62,10 @@
   <main>
     <h1>CPOSS Database</h1>
     <p class="summary"><span id="visible-count">193</span> of 193 cases</p>
-    <a class="explorer" href="https://mme-ucl.github.io/CPOSS_landscape_explorer/" target="_blank" rel="noopener">Open CPOSS Landscape Explorer</a>
+    <nav class="resource-links" aria-label="CPOSS resources">
+      <a class="resource-link" href="https://www.chem.ucl.ac.uk/cposs/results/databasenotes.html" target="_blank" rel="noopener">Open CPOSS Website</a>
+      <a class="resource-link" href="https://mme-ucl.github.io/CPOSS_landscape_explorer/" target="_blank" rel="noopener">Open CPOSS Landscape Explorer</a>
+    </nav>
     <label for="case-filter">Search cases</label>
     <input id="case-filter" type="search" placeholder="Type a case or folder name…" autocomplete="off">
     <div class="table-wrap">

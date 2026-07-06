@@ -10,10 +10,16 @@ th,td{border:0.5pt solid #000;padding:.45rem .6rem;text-align:left;vertical-alig
 .doi-links{display:inline-flex;flex-wrap:wrap;gap:.4rem;margin-left:.25rem}
 .doi-link{display:inline-block;padding:.2rem .45rem;border:1px solid #1558a6;border-radius:.3rem;color:#1558a6;background:#fff;text-decoration:underline;font-weight:700;cursor:pointer;overflow-wrap:anywhere}
 .doi-link:hover,.doi-link:focus{color:#fff;background:#1558a6}
+
+.word-figure-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;align-items:start;margin:1.25rem 0}
+.word-figure-grid img{display:block;width:100%;height:auto;object-fit:contain}
+.word-figure-grid img:last-child:nth-child(odd){grid-column:1/-1;max-width:calc(50% - .5rem);justify-self:center}
+.word-figure-table img{display:block;width:100%;height:auto;margin-top:.5rem;object-fit:contain}
+@media (max-width:700px){.word-figure-grid{grid-template-columns:1fr}.word-figure-grid img:last-child:nth-child(odd){grid-column:auto;max-width:none}}
 </style></head><body>
 <h1>Fenamic Acid</h1>
 <p>(Last updated 18 November 2024)</p>
-<p><img src="https://raw.githubusercontent.com/LouisePrice/CPOSS_Database/main/0.Landscapes/FlufenamicAcid_A2.png" alt="Embedded image"></p>
+<p><img src="https://raw.githubusercontent.com/LouisePrice/CPOSS_Database/main/0.MolecularDiagrams/FenamicAcid.png" alt="Molecular structure of Fenamic acid"></p>
 <p>Figure .  The molecular diagram of Fenamic Acid.</p>
 <h1>CSP studies</h1>
 <p>This system was studied by Ogaga Uzoh, as part of his PhD.  He ran a search in CrystalPredictor, followed by CrystalOptimizer refinement and PCM refinement.  At the moment, I don’t know which versions of CrystalPredictor or CrystalOptimizer were used, or whether the search was rigid or flexible.  Looking at the summary.out files, the variation in starting values of dih9 and dih17 is very small, but they are all different values.  Therefore, it looks like a flexible search.  Similarly, the variation in bnd2 is small, so it appears to have been a CrystalPredictor2 search (CrystalPredictor1 would have this bond within a rigid fragment being a constant).  It’s definitely CrystalOptimizer refinement, although the gas phase energy of opt was not included in the mol.input file.</p>
@@ -48,8 +54,7 @@ th,td{border:0.5pt solid #000;padding:.45rem .6rem;text-align:left;vertical-alig
 <tr><td style="background-color:transparent;border-top:0.5pt solid #000000;border-right:0.5pt solid #000000;border-bottom:0.5pt solid #000000;border-left:3pt solid #FF0000">Location on S Drive</td><td style="background-color:transparent;border-top:0.5pt solid #000000;border-right:3pt solid #FF0000;border-bottom:0.5pt solid #000000;border-left:0.5pt solid #000000">/CHEMISTRY_CPOSS/Fenamates/FenamicAcid/QQQBTY_DFT</td></tr>
 <tr><td style="background-color:transparent;border-top:0.5pt solid #000000;border-right:0.5pt solid #000000;border-bottom:3pt solid #FF0000;border-left:3pt solid #FF0000">Potential Description</td><td style="background-color:transparent;border-top:0.5pt solid #000000;border-right:3pt solid #FF0000;border-bottom:3pt solid #FF0000;border-left:0.5pt solid #000000">CrystalOptimizer PBE1PBE/6-31+G(d) intramolecular energy with PBE1PBE/6-31+G(d) charge density and FIT potential</td></tr>
 </tbody></table>
-<p><img src="https://raw.githubusercontent.com/LouisePrice/CPOSS_Database/main/0.Landscapes/FlufenamicAcid_A2.png" alt="Embedded image"></p>
-<p>Figure .  Top left: CrystalOptimizer crystal energy landscape of Fenamic Acid.  Top right: PCM crystal energy landscape of Fenamic Acid.  Bottom left: Reoptimized CrystalOptimizer crystal energy landscape.  Bottom right:  Energy comparisons with different models.</p>
+<div class="word-figure-grid"><img src="https://raw.githubusercontent.com/LouisePrice/CPOSS_Database/main/0.Landscapes/FenamicAcid_Figure2a.png" alt="Fenamic Acid figure 2, panel a" loading="lazy"><img src="https://raw.githubusercontent.com/LouisePrice/CPOSS_Database/main/0.Landscapes/FenamicAcid_Figure2b.png" alt="Fenamic Acid figure 2, panel b" loading="lazy"><img src="https://raw.githubusercontent.com/LouisePrice/CPOSS_Database/main/0.Landscapes/FenamicAcid_Figure2c.png" alt="Fenamic Acid figure 2, panel c" loading="lazy"><img src="https://raw.githubusercontent.com/LouisePrice/CPOSS_Database/main/0.Landscapes/FenamicAcid_Figure2d.png" alt="Fenamic Acid figure 2, panel d" loading="lazy"></div><p>Figure .  Top left: CrystalOptimizer crystal energy landscape of Fenamic Acid.  Top right: PCM crystal energy landscape of Fenamic Acid.  Bottom left: Reoptimized CrystalOptimizer crystal energy landscape.  Bottom right:  Energy comparisons with different models.</p>
 <h1>CSD structures (CSD version 5.43 with Mar, Jun, Sep and Nov 2022 updates)</h1>
 <p>Table .  Crystallographic information for CSD entries for Fenamic Acid.  Different polymorphs are coloured differently.</p>
 <table><thead><tr><th>REFCODE</th><th>space group</th><th>Z’</th><th>a / Å</th><th>b / Å</th><th>c / Å</th><th>α / °</th><th>β / °</th><th>γ / °</th><th>density / g cm<sup>-3</sup></th><th>Form</th></tr></thead>
@@ -68,10 +73,9 @@ th,td{border:0.5pt solid #000;padding:.45rem .6rem;text-align:left;vertical-alig
 <h1>Other notes</h1>
 <p>The original study indicated that structure 22 was a reasonable approximation to the experimental Z’=2 structure.  Louise thinks that structures 2 and 58 are closer.  For the time being, nothing is marked as the experimental structure apart from the Z’=2 structure.</p>
 <p>This needs to be expanded on.</p>
-<p><img src="https://raw.githubusercontent.com/LouisePrice/CPOSS_Database/main/0.Landscapes/FlufenamicAcid_A2.png" alt="Embedded image"></p>
-<p>Figure .  The packing in CSD entry QQQBTY, showing the slightly different ring orientations in the two crystallographically independent molecules.</p>
+<div class="word-figure-grid"><img src="https://raw.githubusercontent.com/LouisePrice/CPOSS_Database/main/0.Landscapes/FenamicAcid_Figure3.png" alt="Fenamic Acid figure 3" loading="lazy"></div><p>Figure .  The packing in CSD entry QQQBTY, showing the slightly different ring orientations in the two crystallographically independent molecules.</p>
 <p>Of the 77 CSP-generated crystal structures on the CrystalOptimizer landscape, all have $R22(8)$ hydrogen bonding apart from structures 249, 352, 415, 450, which have $C114$ hydrogen bonding, and structure 5675 which has $R22(12)$ hydrogen bonding (NH···O=C).</p>
-<table><thead><tr><th>df415, E<sub>latt</sub>=-119.731 kJ mol<sup>-1</sup> (+10.28 kJ mol<sup>-1</sup>)<br><img src="https://raw.githubusercontent.com/LouisePrice/CPOSS_Database/main/0.Landscapes/FlufenamicAcid_A2.png" alt="Embedded image"></th><th>df5675, E<sub>latt</sub>=-109.158 kJ mol<sup>-1</sup> (+20.85 kJ mol<sup>-1</sup>)</th></tr></thead>
+<table class="word-figure-table"><thead><tr><th>df415, E<sub>latt</sub>=-119.731 kJ mol<sup>-1</sup> (+10.28 kJ mol<sup>-1</sup>)<br><img src="https://raw.githubusercontent.com/LouisePrice/CPOSS_Database/main/0.Landscapes/FenamicAcid_Figure4a.png" alt="Fenamic Acid figure 4, panel a" loading="lazy"></th><th>df5675, E<sub>latt</sub>=-109.158 kJ mol<sup>-1</sup> (+20.85 kJ mol<sup>-1</sup>)<br><img src="https://raw.githubusercontent.com/LouisePrice/CPOSS_Database/main/0.Landscapes/FenamicAcid_Figure4b.png" alt="Fenamic Acid figure 4, panel b" loading="lazy"></th></tr></thead>
 <tbody>
 </tbody></table>
 <p>Figure .  The alternative hydrogen bonding motifs in fenamic acid CSP-generated structures.</p>
